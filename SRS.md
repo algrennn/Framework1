@@ -72,8 +72,6 @@ Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan 
 
 ![enter image description here](https://raw.githubusercontent.com/algrennn/Framework1/master/Image%20SRS/UseCaseDiagram1.jpg)
 
-Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
-
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
@@ -133,7 +131,7 @@ Tidak ada
 ----------
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
    
-**2.2.1 Kepala Desa Login**
+**2.2.1 Pengguna Login**
 
 Use Case: Login
 
@@ -141,16 +139,15 @@ Diagram :
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
 Deskripsi Singkat
-Kepala desa melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
-Deskripsi langkah-langkah
-1. Kepala desa melakukan login dengan username dan password
+Pengguna melakukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
+Deskripsi langkah-langkah:
+1. Pengguna melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.1, Login Kepala Desa
+Xref: Bagian 3.2.1, Login Pengguna
    
-
 **2.2.2 Kepala desa melihat laporan kependudukan**
 
 Use Case: View laporan kependudukan
@@ -261,7 +258,7 @@ Xref: Bagian 3.2.7, Mengelola user
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin, sekdes dan kepala desa ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS 
  
 2.4   Karakteristik pengguna
 ----------
@@ -274,7 +271,7 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 
 2.6   Asumsi-asumsi
 ----------
-Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
+Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan "Anda telah melebihi batas maksimum".
 
 2.7   Kebutuhan Penyeimbang
 ----------
@@ -285,23 +282,23 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username. Setelah login berhasil 
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Kepala desa Login**
+**3.2.1 Pengguna Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala desa |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Xref | Bagian 2.2.1, Login Pengguna |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Precondition | Halaman login |
-| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Pengguna mengisi form login dengan username dan password <br> 2.Pengguna mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
+| Post Condition | Pengguna dapat login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus|
 | Exception Push | Username dan password salah |
       
 **3.2.2 Kepala desa melihat laporan kependudukan**
@@ -323,11 +320,11 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Precondition | Halaman login admin |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Post Condition | Admin berhasil login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Exception Push | Username dan password salah |
    
 **3.2.4 Admin input data kependudukan**
