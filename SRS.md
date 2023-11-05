@@ -24,7 +24,7 @@
 </html>
  
 
-**BAB I Pendahuluan**
+**BAB I Pendahuluan (AKBAR)** 
 ----------
 1.1 Tujuan
 ----------
@@ -57,7 +57,7 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 
 Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, sistem interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 
-**BAB II Gambaran umum**
+**BAB II Gambaran umum (RIFA)**
 ----------
 Dalam era globalisasi yang ditandai oleh pesatnya perkembangan teknologi, kami mengakui pentingnya pemanfaatan teknologi, khususnya dalam mendukung individu berkebutuhan khusus. Dalam konteks ini, kami mempersembahkan aplikasi "KuIstimewa" yang bertujuan untuk menjadi penghubung antara individu berkebutuhan khusus yang telah mencapai kesuksesan dan individu berkebutuhan khusus lainnya. Aplikasi ini dirancang dengan berfokus pada inklusi dan keberlanjutan komunikasi yang dapat membantu mereka dalam berinteraksi, berbagi pengalaman, dan memberikan dukungan satu sama lain.
 
@@ -243,7 +243,7 @@ Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebi
 ----------
 Tidak ada
 
-BAB III Requirement Specification
+BAB III Requirement Specification (JOSHUA)
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
