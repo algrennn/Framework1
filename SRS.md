@@ -6,17 +6,17 @@
 <p align="center"><b>Version 1.7 </b><br>
 <p align="center">02 November 2023</b>
 <p align="center">
-<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
+<img src="https://github.com/algrennn/Framework1/blob/48cf973f9fe16d71a60a9af1f267502d67bdf362/Image%20SRS/Logo_Resmi_PCR.png" width="250" height="250"/ >
 </p>
 
 <p align="center">Aplikasi Penghubung Individu Berkebutuhan Khusus<b><br>
 </b>
 <p align="center">Kelompok 1 <br>
  Joshua Algren           (2257301066)<br>
- Akbar Syahputra    (1603100)<br>
- Riffa Fayyaza      (1603101)<br><br><br>
+ Akbar Syahputra    (2257301008)<br>
+ Riffa Fayyaza      (2257301117)<br><br><br>
 
-<p align="center"><b>JProgram Studi Sistem Informasi</b><br>
+<p align="center"><b>Program Studi Sistem Informasi</b><br>
 <p align="center"><b>Politeknik Caltex Riau</b>
 <p align="center"><b>2023</b>
 </p>
