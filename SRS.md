@@ -81,7 +81,7 @@ Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan 
 |--|--|
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/LamanLogin.jpg) Pada halaman login admin diminta untuk mengisi username dan password.
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/lamanUtama.jpg) Pada Laman Utama admin terdapat panel-panel yang menunjukkan Motivator yang sudah bekerjasama, laman home, search icon, notification icon, dan myProfile icon.|
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/LamanProfile.jpg) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanProfile.png) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/lamanRegister.jpg) Pada halaman register dapat mendaftar akun baru| |
  
 **2.1.3 Antarmuka perangkat keras**
