@@ -46,10 +46,11 @@ Lingkup aplikasi "KuIstimewa" mencakup serangkaian fitur yang bertujuan untuk me
 
 1.4   Referensi
 ----------
+
 Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
-- http://hasantarmizi.blogspot.co.id/2017/04/pengertian-sublime-text.html
-- IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software  Requirements Specifications. IEEE Computer Society, 1998. 1.5  Overview 
-- _SRSExample-webapp.pdf_
+-  https://www.w3.org/WAI/
+- Inclusive Design Patterns: Coding Accessibility into Web Design
+- https://www.microsoft.com/design/inclusive/
 
 1.5   Overview
 ----------
@@ -78,22 +79,20 @@ Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Dashboard.png) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Dropdone%20Kependudukan.png) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Agama.png) Pada Halaman agama dapat menginputkan data agama penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Warga.png) Pada Halaman warga dapat menginputkan data warga|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pendidikan.png) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kelahiran.png) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kematian.png) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kelahiran.png) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kematian.png) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Dashboard.png) Pada Laman Utama admin terdapat panel-panel yang menunjukkan Motivator yang sudah bekerjasama, laman home, search icon, notification icon, dan myProfile icon.|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Dropdone%20Kependudukan.png) Pada halaman tambah Motivator, terdapat beberapa form yang harus diisi datanya.
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Agama.png) Pada halaman tambah Pengguna, terdapat beberapa form yang harus diisi datanya|
+| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
  
 **2.1.3 Antarmuka perangkat keras**
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Mitra Kasih antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak KuIstimewa antara lain :
 
-1. PC / Laptop
-Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
+1. HP/PC/Laptop
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah perangkat yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
 **2.1.4 Antarmuka perangkat lunak**
 
@@ -121,7 +120,6 @@ Tidak ada
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
-| Cetak | Digunakan untuk mencetak laporan |
 
 **2.1.8 Kebutuhan adaptasi**
 
@@ -321,7 +319,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin melihat Data Motivator |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.7  Admin mengelola Pengguna**
+**3.2.6  Admin mengelola Pengguna**
 
 |  |  |
 |--|--|
@@ -332,11 +330,25 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user identitas Pengguna lalu kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
 | Exception Push | Tidak ada koneksi, data belum diinput |
+
+**3.2.7 Admin melihat data Pengguna**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View Data Pengguna |
+| Xref | Bagian 2.2.5, View Data Motivator |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Precondition | Halaman Data Motivator |
+| Basic Path | 1. Admin mengklik navbar yang ada di kiri untuk menampilkan list data Pengguna <br> 2. Sistem akan menampilkan Data Pengguna |
+| Alternative | Tidak ada |
+| Post Condition | Admin melihat Data Pengguna |
+| Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
+
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada sistem Aplikasi Penghubung Individu Berkebutuhan Khusus terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
 
