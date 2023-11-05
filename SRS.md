@@ -79,11 +79,10 @@ Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Dashboard.png) Pada Laman Utama admin terdapat panel-panel yang menunjukkan Motivator yang sudah bekerjasama, laman home, search icon, notification icon, dan myProfile icon.|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Dropdone%20Kependudukan.png) Pada halaman tambah Motivator, terdapat beberapa form yang harus diisi datanya.
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Agama.png) Pada halaman tambah Pengguna, terdapat beberapa form yang harus diisi datanya|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/LamanLogin.jpg) Pada halaman login admin diminta untuk mengisi username dan password.
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/lamanUtama.jpg) Pada Laman Utama admin terdapat panel-panel yang menunjukkan Motivator yang sudah bekerjasama, laman home, search icon, notification icon, dan myProfile icon.|
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/LamanProfile.jpg) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/lamanRegister.jpg) Pada halaman register dapat mendaftar akun baru| |
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -127,7 +126,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/UseCaseDiagram2.jpg)
    
 **2.2.1 Pengguna Login**
 
