@@ -4,21 +4,21 @@
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
 <p align="center"><b>Version 1.7 </b><br>
-<p align="center">28 Maret 2018</b>
+<p align="center">02 November 2023</b>
 <p align="center">
 <img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
 </p>
 
-<p align="center"><b>Manajemen Administrasi Data Kependudukan Desa Lohbener <br>
+<p align="center">Aplikasi Penghubung Individu Berkebutuhan Khusus<b><br>
 </b>
 <p align="center">Kelompok 1 <br>
- Hilmy Lazuardi            (1603099)<br>
- Ismatul Maula    (1603100)<br>
- jakaria       (1603101)<br><br><br>
+ Joshua Algren           (2257301066)<br>
+ Akbar Syahputra    (1603100)<br>
+ Riffa Fayyaza      (1603101)<br><br><br>
 
-<p align="center"><b>Jurusan Teknik Informatika</b><br>
-<p align="center"><b>Politeknik Negeri Indramayu</b>
-<p align="center"><b>2018</b>
+<p align="center"><b>JProgram Studi Sistem Informasi</b><br>
+<p align="center"><b>Politeknik Caltex Riau</b>
+<p align="center"><b>2023</b>
 </p>
 </body>
 </html>
@@ -28,11 +28,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen   spesifikasi perangkat lunak untuk membangun "Manajemen Administrasi Data Kependudukan Desa Lohbener". Dokumen ini dibangun untuk memudahkan pemerintah desa Lohbener untuk menginput data-data kependudukan yang ada di desa Lohbener. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "MANAJEMEN ADMINISTRASI DATA KEPENDUDUKAN DESA LOHBENER".
+Dokumen Software Requirement Specification (SRS) adalah dokumen spesifikasi perangkat lunak yang dirancang khusus untuk proyek "Aplikasi Penghubung Individu Berkebutuhan Khusus". Dokumen ini menjadi panduan teknis yang sangat penting bagi pengembangan perangkat lunak ini, yang bertujuan memfasilitasi hubungan antara individu berkebutuhan khusus yang sudah sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini akan menjadi sarana yang sangat dibutuhkan bagi mereka untuk berinteraksi, berbagi pengalaman, dan memberikan dukungan satu sama lain. Dengan SRS ini, kami berharap dapat menciptakan solusi teknologi yang efektif dalam mencapai tujuan kemanusiaan ini dan membantu dalam membangun jaringan sosial yang kuat antara individu berkebutuhan khusus.
 
 1.2   Lingkup
 ----------
-Manajemen Administrasi Data Kependudukan Desa Lohbener merupakan aplikasi yang kami bangun untuk mempermudah kepala desa Lohbener dalam melihat perkembangan yang ada di desanya yaitu perkembangan pendidikan, angka kelahiran, angka kematian, agama, pekerjaan. dan memudahkan admin dalam menginput data-datanya.
+Lingkup aplikasi "KuIstimewa" mencakup serangkaian fitur yang bertujuan untuk memfasilitasi interaksi dan pertukaran informasi antara individu berkebutuhan khusus yang sudah sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini akan memungkinkan pendaftaran pengguna dengan akun pribadi, di mana mereka dapat mengisi profil mereka dengan informasi yang relevan. Proses ini akan memperhatikan aksesibilitas untuk memastikan penggunaan yang mudah bagi individu dengan berbagai jenis kebutuhan. Setelah pendaftaran, pengguna dapat membuat dan mengelola profil pribadi mereka, termasuk prestasi mereka, minat, dan preferensi. Aplikasi ini akan menggunakan algoritma pencocokan yang canggih untuk menghubungkan individu dengan minat dan pengalaman serupa, memungkinkan mereka untuk terhubung dan berinteraksi satu sama lain. Selain itu, aplikasi ini akan menyediakan berbagai fitur komunikasi, termasuk pesan teks, panggilan suara, dan konferensi video, untuk memfasilitasi interaksi yang mudah antara pengguna. Aplikasi juga akan menjadi sumber daya informasi dengan panduan, tutorial, dan acara yang relevan dengan kebutuhan mereka. Seluruh lingkup proyek ini akan mempertimbangkan keamanan dan privasi pengguna sebagai prioritas utama. Selain itu, aplikasi ini akan dirancang untuk pengembangan lanjutan, memungkinkan perluasan fungsionalitas di masa mendatang demi memenuhi kebutuhan lebih lanjut dari komunitas individu berkebutuhan khusus yang sudah sukses dan ingin berbagi pengalaman serta memberikan dukungan kepada rekan-rekan mereka.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -58,27 +58,15 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh pembuatan laporan kependudukan di desa Lohbener ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan pemerintah desa dengan menerapkan manajemen administrasi data kependudukan desa Lohbener. Sehingga memudahkan admin dalam menginputkan data-data kependudukan. Software yang kami buat ini berbasis website dimana website sebagai admin, sekdes dan kepala desa. Sistem yang kami buat di dalamnya terdapat angka kelahiran, angka kematian, pekerjaan, agama, laporan ( untuk admin/sekdes ), grafik dan laporan ( untuk kepala desa ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
-   - Input Angka Kelahiran
-   - Input Angka Kematian
-   - Input Agama
-   - Input Pendidikan
-   - Input Pekerjaan
-   - Laporan
-   
-   Berikut ini fungsi user dalam bentuk grafik :
-   - View Angka Kelahiran
-   - View Angka Kematian
-   - View Agama
-   - View Pekerjaan
-   - View Pendidikan
-   - View Laporan
+Dalam era globalisasi yang ditandai oleh pesatnya perkembangan teknologi, kami mengakui pentingnya pemanfaatan teknologi, khususnya dalam mendukung individu berkebutuhan khusus. Dalam konteks ini, kami mempersembahkan aplikasi "KuIstimewa" yang bertujuan untuk menjadi penghubung antara individu berkebutuhan khusus yang telah mencapai kesuksesan dan individu berkebutuhan khusus lainnya. Aplikasi ini dirancang dengan berfokus pada inklusi dan keberlanjutan komunikasi yang dapat membantu mereka dalam berinteraksi, berbagi pengalaman, dan memberikan dukungan satu sama lain.
+
+Dalam kasus proyek ini, kami merancang dan mengembangkan sistem aplikasi "KuIstimewa" dengan memahami kebutuhan mendasar dari individu berkebutuhan khusus. Aplikasi ini akan memungkinkan pengguna untuk mendaftar dan mengisi profil pribadi mereka dengan informasi yang relevan. Setelah pendaftaran, aplikasi ini akan menggunakan algoritma pencocokan untuk menghubungkan individu dengan minat atau pengalaman serupa, memfasilitasi pertemuan mereka. Aplikasi "Mitra Kasih" akan memberikan berbagai fitur komunikasi, termasuk obrolan teks, panggilan suara, dan konferensi video, untuk memungkinkan interaksi yang mudah dan efektif.
+
+Selain itu, aplikasi ini akan menyediakan akses ke berbagai sumber daya, tutorial, dan informasi yang relevan untuk membantu pengguna dalam pengembangan keterampilan dan pengetahuan mereka. Keamanan dan privasi pengguna menjadi prioritas utama dalam perancangan aplikasi ini. Kami juga akan merancang aplikasi ini agar dapat dikembangkan lebih lanjut di masa mendatang sesuai dengan kebutuhan pengguna yang berkembang. Dengan "KuIstimewa", kami bertujuan untuk menciptakan platform yang inklusif dan mendukung bagi individu berkebutuhan khusus untuk saling memberikan dukungan, berinteraksi, dan tumbuh bersama.
 
 2.1   Perspektif produk
 ----------
-Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebuah sistem administrasi data yang di aplikasiskan pada website. Terdapat 3 jenis yaitu admin, sekdes dan kepala desa. Pengolahan data di kelola oleh admin dan sekdes pada website dan kepala desa hanya melihat grafik dan laporan pada website.
-
-Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
+Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan individu berkebutuhan khusus yang telah mencapai sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini memiliki tiga jenis pengguna, yaitu pengguna reguler, pengguna berkebutuhan khusus yang telah mencapai kesuksesan, dan admin. Setiap pengguna memiliki peran dan akses yang berbeda dalam aplikasi ini. Pengguna berkebutuhan khusus yang telah sukses dapat berkontribusi dengan berbagi pengalaman dan memberikan dukungan, sementara pengguna berkebutuhan khusus lainnya dapat mencari inspirasi dan koneksi yang bermanfaat. Admin bertugas mengelola dan memastikan kelancaran operasional aplikasi ini.
 
 **2.1.1 Antarmuka sistem**
 
@@ -104,7 +92,7 @@ Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Administrasi Data Kependudukan Desa Lohbener antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Mitra Kasih antara lain :
 
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
