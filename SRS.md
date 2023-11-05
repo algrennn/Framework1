@@ -139,8 +139,7 @@ Diagram :
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
 Deskripsi Singkat
-Pengguna melakukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
-Deskripsi langkah-langkah:
+Pengguna melakukan login terlebih dahulu sebelum masuk ke tampilan home
 1. Pengguna melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
@@ -148,7 +147,7 @@ Deskripsi langkah-langkah:
 
 Xref: Bagian 3.2.1, Login Pengguna
    
-**2.2.2 Kepala desa melihat laporan kependudukan**
+**2.2.2 Kepala desa melihat data Motivator**
 
 Use Case: View laporan kependudukan
 
@@ -156,13 +155,10 @@ Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
 
 Deskripsi Singkat
-Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
-Deskripsi Langkah-langkah
-1. Kepala desa mengklik navbar laporan
-2. Kepala desa memilih combobox tersebut dan klik tombol cetak laporan
-3. Sistem akan menampilkan hasil laporan.
-
-Xref: Bagian 3.2.2, View laporan kependudukan
+Pengguna dapat melihat data Motivator yang ada.
+Deskripsi Langkah-langkah:
+1. Pengguna menekan arrowbar yang ada sesuai gambar Motivator yang diinginkan
+2. Sistem akan menampilkan hasil data Motivator yang dipilih.
 
 **2.2.3 Admin login**
 
@@ -181,26 +177,26 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.3, Login admin
       
-**2.2.4 Admin input data kependudukan**
+**2.2.4 Admin input data Motivator**
 
-Use Case: Input data kependudukan
+Use Case: Input data Motivator
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
       
 Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
+Admin melakukan input data Motivator dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain.
+1. Admin melakukan input data motivator seperti pekerjaan, agama, pendidikan, riwayat sakit, dll.
 2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data kependudukan.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.4, Input data kependudukan
 
-**2.2.5 Admin melihat data kependudukan**
+**2.2.5 Admin melihat data Motivator**
 
-Use Case: View data kependudukan
+Use Case: View data Motivator
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
@@ -208,22 +204,14 @@ Diagram:
 Deskripsi Singkat
 Admin dapat melihat data kependudukan setelah di inputkan.
 Deskripsi Langkah-langkah
-1. Sistem akan menampilkan data kependudukan desa Lohbener.
+1. Sistem akan menampilkan data Motivator.
 2. Admin melihat data dan dapat mengedit atau menghapusnya.
 3. Sistem menampilkan edit data kependudukan
-4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
+4. Admin  mengedit data Motivator yang baru atau yang sudah ada
 5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
 Xref: Bagian 3.2.5, View data kependudukan
-   
-**2.2.6 Generate Laporan**
-
-Use Case: Laporan
-
-Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
-
-Deskripsi Singkat
+    
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
 1. Sistem menampilkan laporan kependudukan
@@ -278,11 +266,11 @@ Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebi
 Tidak ada
 
 
-BAB III Requirement specification
+BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username. Setelah login berhasil 
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username. Setelah login berhasil maka akan dapat menggunakan fitur fitur yang ada pada aplikasi.
       
 3.2 Functional Requirement
 ----------
@@ -301,17 +289,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Pengguna dapat login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus|
 | Exception Push | Username dan password salah |
       
-**3.2.2 Kepala desa melihat laporan kependudukan**
+**3.2.2 Pengguna melihat Data Motivator**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.2, View laporan kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman grafik kependudukan |
-| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
+| Nama Fungsi | View Data Motivator |
+| Xref | Bagian 2.2.2, View Data Motivator |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Precondition | Halaman Data Motivator |
+| Basic Path | 1. Pengguna mengklik navbar yang ada dibawah gambar Motivator <br> 2. Sitem akan menampilkan Data Motivator |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat laporan kependudukan |
+| Post Condition | Kepala desa melihat Data Motivator |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.3 Admin login**
@@ -327,30 +315,30 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data kependudukan**
+**3.2.4 Admin input Data Motivator**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.4, Input data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Nama Fungsi | Input data Motivator |
+| Xref | Bagian 2.2.4, Input data Motivator |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | 1. Admin melakukan input data Motivator seperti pekerjaan, agama, pendidikan, riwayat penyakit, dan lain lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data Motivator <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data kependudukan |
+| Post Condition | Halaman form input data Motivator |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data kependudukan**
+**3.2.5 Admin melihat data Motivator**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Nama Fungsi | View Data Motivator |
+| Xref | Bagian 2.2.5, View Data Motivator |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Precondition | Halaman Data Motivator |
+| Basic Path | 1. Admin mengklik navbar yang ada dibawah gambar Motivator <br> 2. Sitem akan menampilkan Data Motivator |
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
+| Post Condition | Kepala desa melihat Data Motivator |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.6 Cetak Laporan**
@@ -359,7 +347,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
 | Precondition | halaman utama admin |
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
 | Alternative | Tidak ada |
@@ -372,7 +360,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Mengelola user |
 | Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
+| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus | 
 | Precondition | halaman utama admin |
 | Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
