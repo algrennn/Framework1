@@ -70,7 +70,7 @@ Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan 
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://raw.githubusercontent.com/algrennn/Framework1/master/Image%20SRS/UseCaseDiagram1.jpg)
 
 Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
 
