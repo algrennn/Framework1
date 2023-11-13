@@ -1,6 +1,6 @@
 # RPL-D-1
-Repository Proyek 2 Kelompok 1 Kelas D3TI2D
+Repository Proyek Kelompok 1 Kelas 2 SI B
 Nama Anggota : 
-1.Hilmy Lazuardi
-2.Ismatul Maula
-3.Jakaria
+1. Joshua Algren Adriano Siregar
+2. Akbar Syahputra
+3. Rifa Fayyaza
