@@ -11,10 +11,13 @@
 
 <p align="center">Aplikasi Penghubung Individu Berkebutuhan Khusus<b><br>
 </b>
-<p align="center">Kelompok 1 <br>
- Joshua Algren           (2257301066)<br>
- Akbar Syahputra    (2257301008)<br>
- Riffa Fayyaza      (2257301117)<br><br><br>
+<p align="center">Kelompok 1 
+ <br>Joshua Algren      (2257301066)
+ <br>Akbar Syahputra    (2257301008)
+ <br>Riffa Fayyaza      (2257301117)
+ <br>
+ <br>
+ <br>
 
 <p align="center"><b>Program Studi Sistem Informasi</b><br>
 <p align="center"><b>Politeknik Caltex Riau</b>
@@ -28,11 +31,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) adalah dokumen spesifikasi perangkat lunak yang dirancang khusus untuk proyek "Aplikasi Penghubung Individu Berkebutuhan Khusus". Dokumen ini menjadi panduan teknis yang sangat penting bagi pengembangan perangkat lunak ini, yang bertujuan memfasilitasi hubungan antara individu berkebutuhan khusus yang sudah sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini akan menjadi sarana yang sangat dibutuhkan bagi mereka untuk berinteraksi, berbagi pengalaman, dan memberikan dukungan satu sama lain. Dengan SRS ini, kami berharap dapat menciptakan solusi teknologi yang efektif dalam mencapai tujuan kemanusiaan ini dan membantu dalam membangun jaringan sosial yang kuat antara individu berkebutuhan khusus.
+Dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) adalah dokumen yang secara khusus dirancang untuk proyek "Aplikasi Pengelolaan Data Diri Guru dan Siswa". Dokumen ini memiliki peran sebagai panduan teknis yang esensial dalam pengembangan perangkat lunak ini, dengan tujuan memfasilitasi manajemen data diri guru dan siswa. Aplikasi ini diharapkan menjadi alat yang sangat diperlukan bagi para pengguna untuk mencatat, mengelola, dan menampilkan informasi terkait, serta membangun interaksi yang lebih baik di antara mereka. Melalui SRS ini, kami bermaksud menciptakan solusi teknologi yang efektif untuk mencapai tujuan ini dan mendukung pembentukan jaringan interaksi yang kuat di antara komunitas guru dan siswa.
 
 1.2   Lingkup
 ----------
-Lingkup aplikasi "KuIstimewa" mencakup serangkaian fitur yang bertujuan untuk memfasilitasi interaksi dan pertukaran informasi antara individu berkebutuhan khusus yang sudah sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini akan memungkinkan pendaftaran pengguna dengan akun pribadi, di mana mereka dapat mengisi profil mereka dengan informasi yang relevan. Proses ini akan memperhatikan aksesibilitas untuk memastikan penggunaan yang mudah bagi individu dengan berbagai jenis kebutuhan. Setelah pendaftaran, pengguna dapat membuat dan mengelola profil pribadi mereka, termasuk prestasi mereka, minat, dan preferensi. Aplikasi ini akan menggunakan algoritma pencocokan yang canggih untuk menghubungkan individu dengan minat dan pengalaman serupa, memungkinkan mereka untuk terhubung dan berinteraksi satu sama lain. Selain itu, aplikasi ini akan menyediakan berbagai fitur komunikasi, termasuk pesan teks, panggilan suara, dan konferensi video, untuk memfasilitasi interaksi yang mudah antara pengguna. Aplikasi juga akan menjadi sumber daya informasi dengan panduan, tutorial, dan acara yang relevan dengan kebutuhan mereka. Seluruh lingkup proyek ini akan mempertimbangkan keamanan dan privasi pengguna sebagai prioritas utama. Selain itu, aplikasi ini akan dirancang untuk pengembangan lanjutan, memungkinkan perluasan fungsionalitas di masa mendatang demi memenuhi kebutuhan lebih lanjut dari komunitas individu berkebutuhan khusus yang sudah sukses dan ingin berbagi pengalaman serta memberikan dukungan kepada rekan-rekan mereka.
+
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -47,10 +50,6 @@ Lingkup aplikasi "KuIstimewa" mencakup serangkaian fitur yang bertujuan untuk me
 1.4   Referensi
 ----------
 
-Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
--  https://www.w3.org/WAI/
-- Inclusive Design Patterns: Coding Accessibility into Web Design
-- https://www.microsoft.com/design/inclusive/
 
 1.5   Overview
 ----------
@@ -59,15 +58,10 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum (RIFA)**
 ----------
-Dalam era globalisasi yang ditandai oleh pesatnya perkembangan teknologi, kami mengakui pentingnya pemanfaatan teknologi, khususnya dalam mendukung individu berkebutuhan khusus. Dalam konteks ini, kami mempersembahkan aplikasi "KuIstimewa" yang bertujuan untuk menjadi penghubung antara individu berkebutuhan khusus yang telah mencapai kesuksesan dan individu berkebutuhan khusus lainnya. Aplikasi ini dirancang dengan berfokus pada inklusi dan keberlanjutan komunikasi yang dapat membantu mereka dalam berinteraksi, berbagi pengalaman, dan memberikan dukungan satu sama lain.
 
-Dalam kasus proyek ini, kami merancang dan mengembangkan sistem aplikasi "KuIstimewa" dengan memahami kebutuhan mendasar dari individu berkebutuhan khusus. Aplikasi ini akan memungkinkan pengguna untuk mendaftar dan mengisi profil pribadi mereka dengan informasi yang relevan. Setelah pendaftaran, aplikasi ini akan menggunakan algoritma pencocokan untuk menghubungkan individu dengan minat atau pengalaman serupa, memfasilitasi pertemuan mereka. Aplikasi "Mitra Kasih" akan memberikan berbagai fitur komunikasi, termasuk obrolan teks, panggilan suara, dan konferensi video, untuk memungkinkan interaksi yang mudah dan efektif.
-
-Selain itu, aplikasi ini akan menyediakan akses ke berbagai sumber daya, tutorial, dan informasi yang relevan untuk membantu pengguna dalam pengembangan keterampilan dan pengetahuan mereka. Keamanan dan privasi pengguna menjadi prioritas utama dalam perancangan aplikasi ini. Kami juga akan merancang aplikasi ini agar dapat dikembangkan lebih lanjut di masa mendatang sesuai dengan kebutuhan pengguna yang berkembang. Dengan "KuIstimewa", kami bertujuan untuk menciptakan platform yang inklusif dan mendukung bagi individu berkebutuhan khusus untuk saling memberikan dukungan, berinteraksi, dan tumbuh bersama.
 
 2.1   Perspektif produk
 ----------
-Aplikasi 'KuIstimewa' adalah sebuah platform yang dirancang untuk menghubungkan individu berkebutuhan khusus yang telah mencapai sukses dan individu berkebutuhan khusus lainnya. Aplikasi ini memiliki tiga jenis pengguna, yaitu pengguna reguler, pengguna berkebutuhan khusus yang telah mencapai kesuksesan, dan admin. Setiap pengguna memiliki peran dan akses yang berbeda dalam aplikasi ini. Pengguna berkebutuhan khusus yang telah sukses dapat berkontribusi dengan berbagi pengalaman dan memberikan dukungan, sementara pengguna berkebutuhan khusus lainnya dapat mencari inspirasi dan koneksi yang bermanfaat. Admin bertugas mengelola dan memastikan kelancaran operasional aplikasi ini.
 
 **2.1.1 Antarmuka sistem**
 
