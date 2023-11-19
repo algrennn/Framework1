@@ -9,7 +9,7 @@
 <img src="https://github.com/algrennn/Framework1/blob/48cf973f9fe16d71a60a9af1f267502d67bdf362/Image%20SRS/Logo_Resmi_PCR.png" width="250" height="250"/ >
 </p>
 
-<p align="center">Aplikasi Penghubung Individu Berkebutuhan Khusus<b><br>
+<p align="center">Aplikasi Manajemen Administrasi Data Profil Siswa dan Guru<b><br>
 </b>
 <p align="center">Kelompok 1 
  <br>Joshua Algren      (2257301066)
@@ -83,7 +83,8 @@ Dalam menghadapi era globalisasi dan perkembangan teknologi yang cepat, kami seb
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/algrennn/Framework1/master/Image%20SRS/UseCaseDiagram1.jpg)
+![enter image description here](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/USECASE.png
+)
 
 **2.1.2 Antarmuka pengguna**
 
@@ -91,10 +92,10 @@ Dalam menghadapi era globalisasi dan perkembangan teknologi yang cepat, kami seb
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/33b60eb4e003361fb1b80ec705f04a7c89400c19/Image%20SRS/DASHBOARD.png) 
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanUtama.png) 
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanProfile.png)
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanRegister.png) | |
+| ![HALAMAN DASHBOARD](https://github.com/algrennn/Framework1/blob/33b60eb4e003361fb1b80ec705f04a7c89400c19/Image%20SRS/DASHBOARD.png) 
+| ![HALAMAN TAMBAH GURU](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/GURU.png) 
+| ![HALAMAN TAMBAH SISWA](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/SISWA.png)
+| ![HALAMAN LOGIN](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/LOGIN.png) |
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -138,7 +139,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/UseCaseDiagram2.jpg)
+![](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/USECASE.png)
    
 **2.2.1 Guru Login**
 
