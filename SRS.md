@@ -35,7 +35,7 @@ Dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) adalah dokumen yang secara
 
 1.2   Lingkup
 ----------
-
+Manajemen Administrasi Data Profil Siswa dan Guru merupakan aplikasi yang kami bangun untuk mempermudah pengelolaan informasi di sekolah, termasuk data siswa dan guru. Aplikasi ini dirancang untuk memfasilitasi kepala sekolah dan admin dalam melihat serta mengelola data seperti perkembangan pendidikan, biodata siswa, kualifikasi pendidikan guru, dan informasi terkait lainnya.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -49,7 +49,25 @@ Dokumen Spesifikasi Persyaratan Perangkat Lunak (SRS) adalah dokumen yang secara
 
 1.4   Referensi
 ----------
+1. Pengembangan Web atau Aplikasi Mobile:
+Referensi Umum:
 
+MDN Web Docs (https://developer.mozilla.org/): Sumber daya lengkap untuk pengembangan web.
+Google Developers (https://developers.google.com/): Dokumentasi dan panduan pengembangan Google.
+Framework Web:
+
+Django (https://www.djangoproject.com/): Framework Python untuk pengembangan web.
+Flask (https://flask.palletsprojects.com/): Micro-framework Python untuk web.
+Framework Mobile:
+
+Flutter (https://flutter.dev/): Framework UI untuk pengembangan aplikasi mobile.
+React Native (https://reactnative.dev/): Framework JavaScript untuk membuat aplikasi mobile.
+
+2. Database:
+MySQL (https://www.mysql.com/):
+Database relasional yang dapat diintegrasikan dengan banyak aplikasi web.
+MongoDB (https://www.mongodb.com/):
+Database NoSQL yang cocok untuk penyimpanan data dokumen.
 
 1.5   Overview
 ----------
@@ -58,7 +76,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 **BAB II Gambaran umum (RIFA)**
 ----------
-
+Dalam menghadapi era globalisasi dan perkembangan teknologi yang cepat, kami sebagai tim software engineering telah mengembangkan aplikasi Manajemen Administrasi Data Profil Siswa dan Guru. Aplikasi ini didesain khusus untuk memenuhi kebutuhan sekolah, mempermudah pengelolaan data profil siswa dan guru.
 
 2.1   Perspektif produk
 ----------
@@ -73,10 +91,10 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanLogin.png) Pada halaman login admin diminta untuk mengisi username dan password.
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanUtama.png) Pada Laman Utama admin terdapat panel-panel yang menunjukkan Motivator yang sudah bekerjasama, laman home, search icon, notification icon, dan myProfile icon.|
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanProfile.png) Pada Halaman data lengkap Motivator, terdapat data Motivator yang lebih lengkap dan detail
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanRegister.png) Pada halaman register dapat mendaftar akun baru| |
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanLogin.png) 
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanUtama.png) 
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanProfile.png)
+| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanRegister.png) | |
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -122,38 +140,29 @@ Tidak ada
 ----------
 ![](https://github.com/algrennn/Framework1/blob/master/Image%20SRS/UseCaseDiagram2.jpg)
    
-**2.2.1 Pengguna Login**
+**2.2.1 Guru Login**
 
 Use Case: Login
 Deskripsi Singkat : 
 Pengguna melakukan login terlebih dahulu sebelum masuk ke tampilan home
-1. Pengguna melakukan login dengan username dan password
+1. Guru melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.1, Login Pengguna
+Xref: Bagian 3.2.1, Login Guru
    
-**2.2.2 Pengguna melihat data Motivator**
+**2.2.2 Guru melihat data Siswa**
 
-Use Case: Melihat data Motivator
+Use Case: Melihat data Siswa
 Deskripsi Singkat:
-Pengguna dapat melihat data Motivator yang ada.
+Pengguna dapat melihat data Siswa yang ada.
 Deskripsi Langkah-langkah:
-1. Pengguna menekan arrowbar yang ada sesuai gambar Motivator yang diinginkan
-2. Sistem akan menampilkan hasil data Motivator yang dipilih.
+1. Pengguna menekan arrowbar yang ada di sebelah kiri dengan icon siswa
+2. Sistem akan menampilkan hasil data Siswa yang dipilih.
 
-**2.2.3 Pengguna interaksi dengan Motivator**
 
-Use Case: Interaksi dengan Motivator
-Deskripsi Singkat:
-Pengguna dapat berinteraksi dengan Motivator yang ada melalui contact person.
-Deskripsi Langkah-langkah:
-1. Pengguna menekan simbol contact person seperti Email
-2. Sistem akan menampilkan template pesan yang akan dikirim
-   kepada Motivator dan akan disesuaikan dengan identitas anda.
-
-**2.2.5 Admin login**
+**2.2.3 Admin login**
 
 Use Case: Login
 Deskripsi Singkat:
@@ -166,50 +175,50 @@ Deskripsi Langkah-langkah:
 
 Xref: Bagian 3.2.3, Login admin
       
-**2.2.6 Admin Mengelola data Motivator**
+**2.2.4 Admin Mengelola data Siswa**
 
-Use Case: Mengelola data Motivator
+Use Case: Mengelola data Siswa
 Deskripsi Singkat:
-Admin melakukan pengelolaan data Motivator dan sistem menyimpan data pada database.
+Admin melakukan pengelolaan data Siswa dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah:
-1. Admin melakukan input data motivator seperti pekerjaan, agama, pendidikan, riwayat sakit, dll.
+1. Admin melakukan input data Siswa/
 2. Admin mengklik tombol simpan.
-3. Sistem menyimpan data Motivator.
+3. Sistem menyimpan data Siswa.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.4, Mengelola data kependudukan
+Xref: Bagian 3.2.4, Mengelola data Siswa
 
-**2.2.7 Admin melihat data Motivator**
-
-Use Case: Melihat data Motivator
-Deskripsi Singkat:
-Admin dapat melihat data Motivator yang ada.
-Deskripsi Langkah-langkah:
-1. Admin menekan arrowbar yang ada sesuai gambar Motivator yang diinginkan
-2. Sistem akan menampilkan hasil data Motivator yang dipilih.
-
-Xref: Bagian 3.2.5, Melihat data Motivator
-
-**2.2.8 Admin melihat data Pengguna**
+**2.2.5 Admin melihat data Siswa**
 
 Use Case: Melihat data Motivator
 Deskripsi Singkat:
-Admin dapat melihat data Motivator yang ada.
+Admin dapat melihat data Siswa yang ada.
 Deskripsi Langkah-langkah:
-1. Admin menekan navbar yang akan menampilkan list data Pengguna
-2. Sistem akan menampilkan hasil data Pengguna yang ada.
+1. Admin menekan navbar yang ada di sebelah kiri di icon Siswa
+2. Sistem akan menampilkan hasil data Siswa yang dipilih.
+
+Xref: Bagian 3.2.5, Melihat data Siswa
+
+**2.2.6 Admin melihat data Guru**
+
+Use Case: Melihat data Guru
+Deskripsi Singkat:
+Admin dapat melihat data Guru yang ada.
+Deskripsi Langkah-langkah:
+1. Admin menekan navbar yang ada di sebelah kiri di icon Guru
+2. Sistem akan menampilkan hasil data Guru yang ada.
     
-**2.2.9 Admin mengelola Pengguna**
+**2.2.7 Admin mengelola Guru**
 
-Use Case: Mengelola data pengguna
+Use Case: Mengelola data Guru
 Deskripsi Singkat:
-Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
+Sistem akan menampilkan form Guru dan admin dapat menambah Guru sesuai kebutuhan.
 Deskripsi Langkah-langkah:
 1. Admin mengklik manajemen user, lalu mengisi form kemudian klik tambah
 2. Sistem akan menyimpan data user ke database dan menampilkan data user yang dipilih.
 3. Admin bisa menghapus hak akses user.
 
-Xref: Bagian 3.2.7, Mengelola data pengguna
+Xref: Bagian 3.2.7, Mengelola data GURU
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -247,30 +256,30 @@ Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan ol
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Pengguna Login**
+**3.2.1 Guru Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.1, Login Pengguna |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Trigger | Membuka Aplikasi |
 | Precondition | Halaman login |
 | Basic Path | 1. Pengguna mengisi form login dengan username dan password <br> 2.Pengguna mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Pengguna dapat login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus|
+| Post Condition | Pengguna dapat login dan mengakses Aplikasi|
 | Exception Push | Username dan password salah |
       
-**3.2.2 Pengguna melihat Data Motivator**
+**3.2.2 Guru melihat Data Siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View Data Motivator |
+| Nama Fungsi | View Data Siswa |
 | Xref | Bagian 2.2.2, View Data Motivator |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
-| Precondition | Halaman Data Motivator |
-| Basic Path | 1. Pengguna mengklik navbar yang ada dibawah gambar Motivator <br> 2. Sitem akan menampilkan Data Motivator |
+| Trigger | Membuka Aplikasi |
+| Precondition | Halaman Data Siswa |
+| Basic Path | 1. Pengguna mengklik navbar yang ada di kiri dengan icon Siswa <br> 2. Sistem akan menampilkan Data Siswa |
 | Alternative | Tidak ada |
-| Post Condition | Pengguna melihat Data Motivator |
+| Post Condition | Pengguna melihat Data Siswa |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.3 Admin login**
@@ -279,62 +288,63 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Trigger | Membuka Aplikasi |
 | Precondition | Halaman login admin |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Post Condition | Admin berhasil login dan mengakses Aplikasi |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin mengelola Data Motivator**
+**3.2.4 Admin mengelola Data Siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola data Motivator |
-| Xref | Bagian 2.2.4, Mengelola data Motivator |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
+| Nama Fungsi | Mengelola data Siswa |
+| Xref | Bagian 2.2.4, Mengelola data Siswa |
+| Trigger | Membuka Aplikasi |
 | Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data Motivator seperti pekerjaan, agama, pendidikan, riwayat penyakit, dan lain lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data Motivator <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | 1. Admin melakukan input data Siswa <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data Siswa <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Data Motivator berhasil dikelola |
+| Post Condition | Data Siswa berhasil dikelola |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data Motivator**
+**3.2.5 Admin melihat data Siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View Data Motivator |
-| Xref | Bagian 2.2.5, View Data Motivator |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
-| Precondition | Halaman Data Motivator |
-| Basic Path | 1. Admin mengklik navbar yang ada dibawah gambar Motivator <br> 2. Sitem akan menampilkan Data Motivator |
+| Nama Fungsi | View Data Siswa |
+| Xref | Bagian 2.2.5, View Data Siswa |
+| Trigger | Membuka Aplikasi |
+| Precondition | Halaman Data Siswa |
+| Basic Path | 1. Admin mengklik navbar di sebelah kiri yang ada icon Siswa <br> 2. Sistem akan menampilkan Data Siswa |
 | Alternative | Tidak ada |
-| Post Condition | Admin melihat Data Motivator |
+| Post Condition | Admin melihat Data Siswa |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6  Admin mengelola Pengguna**
+**3.2.6  Admin mengelola data Guru**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus | 
-| Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user identitas Pengguna lalu kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
-| Post Condition | Halaman user |
-| Exception Push | Tidak ada koneksi, data belum diinput |
-
-**3.2.7 Admin melihat data Pengguna**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View Data Pengguna |
-| Xref | Bagian 2.2.5, View Data Motivator |
-| Trigger | Membuka Aplikasi Penghubung Individu Berkebutuhan Khusus |
-| Precondition | Halaman Data Motivator |
-| Basic Path | 1. Admin mengklik navbar yang ada di kiri untuk menampilkan list data Pengguna <br> 2. Sistem akan menampilkan Data Pengguna |
+| Nama Fungsi | Mengelola data Guru |
+| Xref | Bagian 2.2.4, Mengelola data Guru |
+| Trigger | Membuka Aplikasi |
+| Precondition | Halaman utama admin |
+| Basic Path | 1. Admin melakukan input data Guru <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data Guru <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin melihat Data Pengguna |
+| Post Condition | Data Guru berhasil dikelola |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.7 Admin melihat data Guru**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View Data Guru |
+| Xref | Bagian 2.2.5, View Data Guru |
+| Trigger | Membuka Aplikasi |
+| Precondition | Halaman Data Siswa |
+| Basic Path | 1. Admin mengklik navbar di sebelah kiri yang ada icon Guru <br> 2. Sistem akan menampilkan Data Guru |
+| Alternative | Tidak ada |
+| Post Condition | Admin melihat Data Guru |
 | Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
@@ -345,46 +355,35 @@ Struktur data logika pada sistem Aplikasi Penghubung Individu Berkebutuhan Khusu
 
 ![enter image description here](https://github.com/algrennn/Framework1/blob/81df7e092814406b0cf73d0674508a7d2814be9a/Image%20SRS/ERDD.jpg)
 
-**Tabel User**
+**Tabel Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| int | Nomer auto increment Id_user|
-| NAMA_USER | varchar |  |
-| STATUS_USER | varchar |  |
+| Id_siswa| int | Nomer auto increment Id_user|
+| NAMA_SISWA | varchar |  |
+| KELAS_SISWA|  varchar |  |
+| TELP_SISWA | varchar |  |
+| STATUS_SISWA | varchar |  |
 
-**Tabel Lihat**
 
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| ID_HISTORY | int | Nomer auto increment ID_HISTORY|
-| WAKTU_LIHAT | varchar | |
-| ID_USER | int | |
-| ID_MOTIVATOR | int | |
-
-**Tabel Interaksi Online**
+**Tabel Guru**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| ID_INTERAKSI| int | Nomer auto increment ID_INTERAKSI|
-| WAKTU_LIHAT | varchar |  |
-| ID_USER | int | |
-| ID_MOTIVATOR | int | |
+| Id_guru| int | Nomer auto increment Id_user|
+| NAMA_GURU| varchar |  |
+| KELAS_GURU|  varchar |  |
+| TELP_GURU | varchar |  |
+| STATUS_GURU | varchar |  |
 
-**Tabel Motivator**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| ID_MOTIVATOR| int | Nomer auto increment ID_MOTIVATOR|
-| NAMA_MOTIVATOR | varchar | |
-| DESKRIPSI_MOTIVATOR | varchar | |
-
-**Tabel Kategori**
+**Tabel View*
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| ID_KATEGORI| int | Nomer auto increment ID_KATEGORI|
-| NAMA_KATEGORI | varchar |  |
+| Id_view| int | Nomer auto increment Id_user|
+| WAKTU_VIEW| varchar |  |
+
+
 
 
 
