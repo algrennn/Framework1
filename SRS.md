@@ -91,7 +91,7 @@ Dalam menghadapi era globalisasi dan perkembangan teknologi yang cepat, kami seb
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanLogin.png) 
+| ![enter image description here]([https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanLogin.png](https://github.com/algrennn/Framework1/blob/33b60eb4e003361fb1b80ec705f04a7c89400c19/Image%20SRS/DASHBOARD.png)) 
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanUtama.png) 
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/LamanProfile.png)
 | ![enter image description here](https://github.com/algrennn/Framework1/blob/ea7bdcacabaa63a0f2579070bc664e43a591c2b5/Image%20SRS/lamanRegister.png) | |
