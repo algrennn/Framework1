@@ -354,7 +354,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi Penghubung Individu Berkebutuhan Khusus terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/algrennn/Framework1/blob/81df7e092814406b0cf73d0674508a7d2814be9a/Image%20SRS/ERDD.jpg)
+![enter image description here](https://github.com/algrennn/Framework1/blob/53bc5af2a45abce183f2787d2da2ae185f29387f/Image%20SRS/DATABASE.png)
 
 **Tabel Siswa**
 
